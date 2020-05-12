@@ -1,0 +1,134 @@
+.padding{
+    padding-top: 30px;
+    
+}
+.divi{
+  background-color: orange;
+  border-style: solid;
+  border-color: orange;
+  padding: 2px;
+}
+.divi1{
+  background-color: blue;
+  border-style: solid;
+  border-color: blue;
+  padding: 2px;
+}
+.divi2{
+  background-color: green;
+  border-style: solid;
+  border-color: green;
+  padding: 2px;
+}
+
+
+.paddings{
+    padding-top: 20px;
+}
+.padding_button{
+    margin-left: 220px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+#content{
+    min-height: 600px;
+}
+#message p {
+    margin: 1em 0;
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#banner_image {
+    height:670px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("images/1.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#banner_content {
+    text-align: left;
+    position: relative;
+    padding :3%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 710px;
+}
+
+.cont{
+    margin-top: 60px;
+    
+    
+
+}
+
+.para{
+    border-style: inset;
+    border-color: rgba(0,0,0,.1);
+    
+  width: 300px;
+  
+  padding-left: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 20px;
+  margin-left: 300px;
+}
+
+.btnp {
+  background-color: #ddd!important;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btnp:hover {
+  background-color: blue!important;
+  color: white;
+}
+
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+
+#login-panel .panel-footer{
+    font-weight:normal;
+}
+
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+    footer{
+        text-align:left;
+    }
+}
+
